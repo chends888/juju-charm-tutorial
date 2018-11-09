@@ -1,2 +1,2 @@
 # juju-charm-tutorial
-Juju charm tutorial for Cloud Computing (Computação em Nuvem) course under Computer Engineering Undergrad
+Link for the tutorial: https://docs.jujucharms.com/2.4/en/authors-charm-writing
