@@ -1,0 +1,19 @@
+name: vanilla
+summary: <Fill in summary here>
+maintainer: Lucas Chen Alba lchends@gmail.com
+description: |
+  <Multi-line description here>
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: false
+provides:
+  website:
+    interface: http
+requires:
+  database:
+    interface: mysql
+peers:
+  peer-relation:
+    interface: interface-name
