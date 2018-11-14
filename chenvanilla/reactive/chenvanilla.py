@@ -1,8 +1,8 @@
 from charms.reactive import when, when_not, set_flag
 
 
-@when_not('vanilla.installed')
-def install_vanilla():
+@when_not('chenvanilla.installed')
+def install_chenvanilla():
     # Do your setup here.
     #
     # If your charm has other dependencies before it can install,
@@ -14,4 +14,4 @@ def install_vanilla():
     #  * https://jujucharms.com/docs/devel/developer-getting-started
     #  * https://github.com/juju-solutions/layer-basic#overview
     #
-    set_flag('vanilla.installed')
+    set_flag('chenvanilla.installed')
